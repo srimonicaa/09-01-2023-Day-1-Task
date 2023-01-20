@@ -1,0 +1,41 @@
+
+
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+HTTP1.1 :-
+
+	* It works on the textual format.
+	* It compresses data by itself.
+	* It uses request resources inlining for use getting multiple pages.
+
+HTTP2 :-
+	* It Works on the binary protocol.
+	* It uses HPACK for data compression.
+	* It uses PUSH frame by server that collects all multiple pages.
+
+
+
+2. Write a blog about objects and its internal representation in Javascript?	
+
+
+	* An object is a collection of properties, and a property is an association between a name (or key) and a value. 
+	* A property's value can be a function, in which case the property is known as a method.
+	* Objects are more complex and each object may contain any combination of these primitive data-types as well as 
+	  reference data-types.
+	* An object, is a reference data type. 
+	* Variables that are assigned a reference value are given a reference or a pointer to that value. 
+	* That reference or pointer points to the location in memory where the object is stored. 
+	* The variables don’t actually store the value.
+
+Every object has some property associated with some value.
+
+These values can be accessed using these properties associated with them.
+
+var myCar = new Object();
+
+myCar.model = 'Hyundai';
+
+myCar.year = 2020;
+
+myCar.wheels = 4;
